@@ -27,6 +27,7 @@ public class ContactDto {
         this.phoneNumber = phoneNumber;
     }
 
+
     public String getFullName() {
         return fullName;
     }

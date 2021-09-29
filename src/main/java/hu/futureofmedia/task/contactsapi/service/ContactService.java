@@ -29,7 +29,7 @@ public class ContactService {
 
     public Contact saveContact(Contact contact) {
         List<Contact> temp = repository.findAll();
-        if (temp.contains(contact)) {
+        if (temp.contains(contact) || contact.getStatus().equals(Status.DELETED)) {
             throw new RuntimeException("This contact is already exists or bad saving parameters");
         }
         validatePhoneNumber(contact);

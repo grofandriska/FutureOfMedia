@@ -16,6 +16,10 @@ public class Company {
     public Company() {
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public Company(Long id, String name) {
         this.id = id;
         this.name = name;
@@ -32,4 +36,6 @@ public class Company {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }

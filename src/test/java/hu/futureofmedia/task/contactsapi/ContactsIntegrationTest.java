@@ -32,34 +32,27 @@ public class ContactsIntegrationTest {
     @Autowired
     private TestRestTemplate testRestTemplate;
 
-    @Autowired
-    private ContactService contactService;
-
     @BeforeEach
     public void setUp() {
         this.baseUrl = "http://localhost:" + port;
     }
-
     @Test
     public void addContactShouldSaveEntityToDatabase() {
         Company company = new Company();
-        company.setId(5L);
-        company.setName("Google");
-        company = testRestTemplate.postForObject(baseUrl + "/company/add", company, Company.class);
+        company.setId(6L);
         Contact contact = new Contact();
         contact.setId(99L);
         contact.setCompany(company);
         contact.setCreated(new Date());
-        contact.setEmail("baba@freemail.com");
-        contact.setFirstName("Amdr");
-        contact.setLastName("pis");
+        contact.setEmail("heyjoe@gmail.com");
+        contact.setFirstName("Andrew");
+        contact.setLastName("Earl");
         contact.setModified(new Date());
+        contact.setPhoneNumber("+36209998897");
         contact.setStatus(Status.ACTIVE);
-        contact.setPhoneNumber("+564165465");
         Contact result = testRestTemplate.postForObject(baseUrl + "/contacts/create", contact, Contact.class);
         assertEquals(contact.getFirstName(), result.getFirstName());
     }
-
     @Test
     public void getListOfContactsShouldReturnTenPerPage() {
         int pageNumber = 1;
