@@ -1,0 +1,7 @@
+Contacts:
+
+/contacts/{pageNumber} - Kilistázza az adott oldalhoz tartoz contacts-kat (ABC sorrendben, egyszerre max. 10) és megjeleníti: Név, email, telefon,cég ({pagenumber} a paraméter)
+/contacts/get/{id} -Lekér és megjelenít egy contact-ot minden hozzá tartozó adattal
+/contacts/create -Létrehoz egy új contact-ot és lementi adatbázisba ha megfelel a validációs feltételeknek ( body-ban vár egy JSON objektumot )
+/contacts/update/{id} - már meglévő contact-hoz tartozó adatokat tudunk frissíteni
+/contacts/delete/{id} -egy meglévő contact-hoz tartozó státusz állíthatjuk DELETED-re
