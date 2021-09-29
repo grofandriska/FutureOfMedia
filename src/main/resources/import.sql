@@ -1,0 +1,33 @@
+
+INSERT INTO company (id,name) VALUES(5,'Google');
+INSERT INTO company (id,name) VALUES(6,'Amazon');
+INSERT INTO company (id,name) VALUES(7,'Facebook');
+
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (111,'2020-05-05','user25@freemail.hu','John','Doe','2020-06-07','Good Person','+36303559978','ACTIVE','237e9877-e79b-12d4-a765-321741963000',5);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (222,'2020-05-05','lilangeasdl@gmail.com','Nancy','Botwin','2020-12-07','Good Person','+36525585222','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (333,'2020-05-05','mrpeter@freemail.com','Peter','Johnson','2020-12-11','Good Person','+36525255385','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (44,'2020-05-05','dude99@yahoo.com','Peter','Meyer','2020-06-22','Good Person','+361155285','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (51,'2020-05-05','freecoder@gmail.com','Mark','Felix','2020-06-19','Good Person','+36229487564','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (66,'2020-05-05','mrjohn@gmail.com','John','Gracia','2020-06-1','Good Person','+36552557785','ACTIVE','237e9877-e79b-12d4-a765-321741963000',5);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (47,'2020-05-05','susan8976@yahoo.com','Susan','Spenser','2020-08-08','Good Person','+3265266885','ACTIVE','237e9877-e79b-12d4-a765-321741963000',5);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (8,'2020-05-05','kingdaniel@gmail.com','Daniel','King','2020-08-08','Good Person','+361169785854','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (9,'2020-05-05','sarahjohnson@yahoo.com','Sarah','Johnson','2020-02-14','Good Person','+36975461285','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (10,'2020-05-05','pettom@gmail.com','Tom','Pet','2020-03-03','Good Person','+45635434537','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (11,'2020-05-05','schefmail@yahoo.com','Andrew','Runner','2020-03-27','Good Person','+786783785','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (12,'2020-05-05','boss22@gmail.com','Michael','Kit','2020-08-09','Good Person','+378375375','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (13,'2020-05-05','greta@gmail.com','Greta','Loren','2020-06-11','Good Person','+45378378','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (14,'2020-05-05','user25@freemail.hu','John','Doe','2020-06-07','Good Person','+36303559978','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (33,'2020-05-05','mrpeter@freemail.com','Peter','Johnson','2020-12-11','Good Person','+36525255385','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (42,'2020-05-05','dude99@yahoo.com','Peter','Meyer','2020-06-22','Good Person','+361155285','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (53,'2020-05-05','freecoder@gmail.com','Mark','Felix','2020-06-19','Good Person','+36229487564','ACTIVE','237e9877-e79b-12d4-a765-321741963000',7);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (64,'2020-05-05','mrjohn@gmail.com','John','Gracia','2020-06-1','Good Person','+36552557785','ACTIVE','237e9877-e79b-12d4-a765-321741963000',5);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (75,'2020-05-05','susan8976@yahoo.com','Susan','Spenser','2020-08-08','Good Person','+3265266885','ACTIVE','237e9877-e79b-12d4-a765-321741963000',5);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (86,'2020-05-05','kingdaniel@gmail.com','Daniel','King','2020-08-08','Good Person','+361169785854','ACTIVE','237e9877-e79b-12d4-a765-321741963000',5);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (97,'2020-05-05','sarahjohnson@yahoo.com','Sarah','Johnson','2020-02-14','Good Person','+36975461285','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (108,'2020-05-05','pettom@gmail.com','Tom','Pet','2020-03-03','Good Person','+45635434537','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (161,'2020-05-05','schefmail@yahoo.com','Andrew','Runner','2020-03-27','Good Person','+786783785','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (152,'2020-05-05','boss22@gmail.com','Michael','Kit','2020-08-09','Good Person','+378375375','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+INSERT INTO contact(id,created,email,first_name,last_name,modified,note,phone_number,status,uuid,company_id) VALUES (142,'2020-05-05','greta@gmail.com','Greta','Loren','2020-06-11','Good Person','+45378378','ACTIVE','237e9877-e79b-12d4-a765-321741963000',6);
+
+
