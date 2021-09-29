@@ -141,5 +141,4 @@ public class Contact {
     public String getLastName() {
         return lastName;
     }
-
 }

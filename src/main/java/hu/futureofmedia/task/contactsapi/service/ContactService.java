@@ -63,7 +63,7 @@ public class ContactService {
                     return response;
                 }
                 Contact temp = allContactOrdered.get(i);
-                response.add(new ContactDto(temp.getFirstName() + "" + temp.getLastName(),
+                response.add(new ContactDto(temp.getFirstName() + " " + temp.getLastName(),
                         temp.getCompany().getName(),
                         temp.getEmail(),
                         temp.getPhoneNumber()));
@@ -88,6 +88,7 @@ public class ContactService {
         contactUpdate.setPhoneNumber(contact.getPhoneNumber());
         contactUpdate.setNote(contact.getNote());
         contactUpdate.setModified(new Date());
+        contactUpdate.setStatus(contact.getStatus());
         validatePhoneNumber(contactUpdate);
         repository.save(contactUpdate);
     }

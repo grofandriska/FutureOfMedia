@@ -1,6 +1,5 @@
 package hu.futureofmedia.task.contactsapi.controllers;
 
-
 import hu.futureofmedia.task.contactsapi.entities.Contact;
 import hu.futureofmedia.task.contactsapi.entities.dto.ContactDto;
 import hu.futureofmedia.task.contactsapi.service.ContactService;
@@ -41,7 +40,7 @@ public class ContactController {
         contactService.updateContact(contact, id);
     }
 
-    @RequestMapping("/delete/{id}")
+    @DeleteMapping("/delete/{id}")
     public void deleteContact(@PathVariable Long id) {
         contactService.deleteContact(id);
     }

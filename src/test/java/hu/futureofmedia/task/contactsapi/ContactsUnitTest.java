@@ -59,5 +59,4 @@ public class ContactsUnitTest {
         mockMvc.perform(post("/contacts/create")).andExpect(status().is(400));
         when(service.saveContact(contact)).thenThrow(RuntimeException.class);
     }
-
 }
