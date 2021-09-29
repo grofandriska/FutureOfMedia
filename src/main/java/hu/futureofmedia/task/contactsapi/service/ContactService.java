@@ -56,7 +56,7 @@ public class ContactService {
                 allContact.removeIf(contact1 -> contact.getStatus() == Status.DELETED);
             }
             List<Contact> allContactOrdered = allContact.stream()
-                    .sorted(Comparator.comparing(Contact::getFirstName)) // sort by price
+                    .sorted(Comparator.comparing(Contact::getFirstName))
                     .collect(Collectors.toList());
             for (int i = (page - 1) * 10; i < ((page - 1) * 10) + 10; i++) {
                 if (i + 1 > allContactOrdered.size()) {
