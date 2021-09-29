@@ -30,6 +30,7 @@ Itt a metódus egy kapcsolattartóhoz tartozó ID-paramétert vár, nem létező
 (JSON Választ küld)
 
 /contacts/create
+
 -Létrehoz egy új contact-ot és lementi adatbázisba ha megfelel a validációs feltételeknek ( body-ban vár egy JSON objektumot ),
 a következő adatok kötelezőek :
 
@@ -42,6 +43,7 @@ Status
 Siker esetén 200-as kóddal tér vissza, ha hibás adatot ad meg a felhasználó  vagy nem ad meg kötelező elemeket akkor hibakódot küld vissza. (POST kérésekre válaszol)
 
 /contacts/update/{id}
+
 -Már meglévő contact-hoz tartozó adatokat tudunk frissíteni.
 A metódus egy kapcsolattartüó entitást vár amit JSON-objektumban kap meg illetve egy ID-t ami a módosítandó entitást jelöli ,majd átállítja adatait.
 A metódus itt is validálja a telefonszámot, illetve a felhasználó töröltről aktívra állíthatja státsuzát. a Módosítás dátuma új , aktuális értéket kap.
@@ -57,3 +59,5 @@ A metódus paraméterként egy ID-t vár az URL-ből,
 nem létező id paraméter esetén hibaüzenettel tér vissza
 
 ( DELETE kéréseket elégít ki)
+
+2020.09.09.
